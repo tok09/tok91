@@ -1,0 +1,28 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<h2>Recent activity</h2>
+
+{% if paginator %}
+	{% assign items = paginator.posts %}
+{% else %}
+	{% assign items = site.posts | 
+		concat: site.papers | 
+		concat: site.posters |
+		concat: site.talks |
+		sort: 'date' | 
+		reverse |
+		slice: 0, 5 %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+	{% for item in items %}
+		{% include home-single.html %}
+	{% endfor %}
+</div>
+
+{% include paginator.html %}

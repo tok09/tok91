@@ -1,0 +1,14 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign datasets = site[page.collection] | sort: 'year' | reverse %}
+
+<ul>
+{% for dataset in datasets %}
+<li>{{ dataset.authors_short | default: dataset.authors | replace: "Roe, J.", "<b>Roe, J.</b>" }} {{dataset.year}}. <a href="{{ dataset.url }}">{{dataset.title}}</a>. <cite>{{dataset.repository}}</cite>. <a href="https://doi.org/{{ dataset.doi }}">doi:{{ dataset.doi }}</a>.</li>
+{% endfor %}
+</ul>
+

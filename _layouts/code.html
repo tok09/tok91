@@ -1,0 +1,42 @@
+---
+layout: archive
+---
+
+{% assign code = site[page.collection] | sort: 'version' | reverse %}
+
+<div class="feature__wrapper">
+	{% for program in code %}
+	<div class="feature__item">
+		<div class="archive__item" style="padding: 1em 0;">
+			<div class="archive__item-teaser">
+				<a href="{{ program.url }}">
+					{% if program.logo %}
+					<img style="max-width: 139px;" src="{{ program.logo }}" alt="{{ program.short_name }} logo">
+					{% else %}
+					<img style="max-width: 139px;" src="/assets/hex.svg">
+					{% endif %}
+				</a>
+			</div>
+			<div class="archive__item-body">
+				<h2 class="archive__item-title"><a href="{{ program.url }}">{{ program.short_name }}</a></h2>
+				<div class="archive__item-excerpt">
+					{{ program.title }}
+					<ul class="small" style="list-style: none; padding: 0;">
+						<li style="margin-bottom: 0;">
+							Latest version: 
+							{% if program.version == '0.0.0' %}
+							unreleased
+							{% else %}
+							{{ program.version }} ({{ program.year }})
+							{% endif %}
+						</li>
+						<li style="margin-bottom: 0;"><a href="{{ program.website }}">{{ program.website }}</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+{{ content }}

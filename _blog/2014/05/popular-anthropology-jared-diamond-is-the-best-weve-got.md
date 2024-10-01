@@ -1,0 +1,25 @@
+---
+date: 2014-05-31 09:26:51+00:00
+title: Popular anthropology? Jared Diamond is the best we've got
+wordpress_id: 91
+---
+
+Part 2 of Alex Posecznick's delightful series on [anthropologists as scholarly hipsters](http://savageminds.org/2014/05/05/anthropologists-as-scholarly-hipsters-part-ii-critiques-from-the-margins/) for *Savage Minds* sums up for me the problem of why the discipline can't seem to produce public intellectuals of the calibre of Richard Dawkins, Brian Cox or, case in point, Jared Diamond (emphasis added):
+
+<!--more-->
+
+> Many anthropologists love to ‘hate on’ biologist and professor of geography Jared Diamond. He writes popular, mainstream books that seemingly re-package antiquated, geographically deterministic, grand theories of human societies that anthropologists discarded as inadequate years ago. At their worst, his writings seem to alleviate White, Western guilt about colonial conquest by pointing to massive, impersonal social forces that are the ‘true culprit’ of current global inequities. However, his works also align with much of the core messaging of anthropology: that socio-political structures, the distribution of resources, historical conditions and geography can be as powerful as agency in shaping the current state of affairs. I agree with a number of the substantive critiques of Diamond, but the accessible texts can lay a strong foundation upon which further conversations can productively be built. Diamond’s books are also fun to read and accessible.
+>
+> Therefore, although the critiques of Diamond’s work is substantive, it seems to me that what most offends some anthropologists is not his intellectual argument, but rather that Diamond is poaching on anthropology’s territory – that he is taking old anthropological fads to the mainstream. I hear the same fury about non-anthropologists who ‘do ethnography’ or ‘culture.’ The critiques sound much like hipsters who see their own styles go mainstream, or are experts on the obscure:
+>
+>> That ironic Metallica t-shirt is so 2012.
+>
+>> Grizzly Bear is just a pale shadow of Neutral Milk Hotel.
+>
+>The fury seems partly rooted in our own marginalized position, and the lack of acknowledgment of our own expertise. Why, we wonder, are they listening to these others? Why can’t people see that what we do is so much better than what they do?
+>
+> Similar to hipsters, anthropologists can be slave to an endless array of fads. Although these academic fads can be intellectually stimulating, we also use this knowledge to demarcate membership, maintain our relevance and evaluate one another – which is a major aspect of doctoral study. As a doctoral student, one learns to articulate personal narratives related to the in-group (anthropologists), but may simultaneously act to make oneself indecipherable to out-groups (everyone else). Furthermore, it seems as if the act of making something accessible to the mainstream is considered one of "selling out." **Thus we frequently complain that no one listens to us, while making our work impenetrable to non-experts and punishing those who attempt to makes those works more accessible.** I have heard many call for anthropologists to produce a new public intellectual in the tradition of Margaret Mead, but it seems that the culture of anthropology today is designed to position us at the margins.
+
+Diamond, despite being the most successful communicator of anthropology and archaeology in recent times, is pilloried in apoplectic reviews of his works by anthropologists. Why? Yes, his works often get the details wrong, mistakes that only multiply with age (his magnum opus *Guns, Germs and Steel* will turn 20 soon.) And yes, they vastly simplify complex topics. But in most disciplines it seems to be accepted that simplification is the necessary price of making difficult concepts accessible, and erring in the details the necessary price of encompassing many disparate fields in a single work. Other disciplines can swallow this trade-off – but not anthropology. Perhaps the reason is that, as scholarly hipsters, anthropology (and non-anthropological archaeology) is one of the few scientific disciplines with the unusual habit of seeking after detail rather than generalisation. For physicists, for biologists, for psychologists, the task is to find the generalisable principles underlying natural phenomena that are manifestly complex. Anthropologists deal with phenomena – human nature, culture, the past – that, for whatever reason, people have a tendency to simplify, stereotype and reduce. We are constantly watchful for generalisations that aren't warranted (race, the other, cavemen) and so overreact to those that, possibly, are, or at least are an acceptable sacrifice to accessibility.
+
+Of course, as Posecznick notes, there are many valid and substantive criticisms of Diamond's work. Let's take these as challenges to produce accessible popular anthropology and archaeology that does it better. Until then, Diamond stands up as the most successful public (non-)anthropologist we have.

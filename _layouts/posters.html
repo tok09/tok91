@@ -1,0 +1,18 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign posters = site[page.collection] | sort: 'year' | reverse %}
+
+<ul style="list-style-type: none; margin: 0; padding: 0;">
+{% for poster in posters %}
+<li style="clear: left;">
+<img src="{{ poster.preview }}" style="width: 120px; float: left; margin: 0 1em 1em 0;" /><small>{{ poster.authors_short | default: poster.authors | replace: "Roe, J.", "<b>Roe, J.</b>" }}</small><br />
+<a href="{{ poster.url }}">{{poster.title}}</a>.<br />
+<small>Presented at {{ poster.conference }}, {{ poster.year }}.</small>
+</li>
+{% endfor %}
+</ul>
+

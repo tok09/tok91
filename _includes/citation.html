@@ -1,0 +1,25 @@
+{% assign pub = include.pub %}
+
+{% if page.url == pub.url %}
+{{ pub.authors }},
+{{ pub.year }}.
+{{ pub.title }}.
+{% else %}
+{{ pub.authors_short | default: pub.authors | replace: "Roe, J.", "<b>Roe, J.</b>" }},
+{{ pub.year }}.
+<a href="{{ pub.url }}">{{ pub.title }}</a>. 
+{% endif %}
+{% if pub.language %}
+    [<span lang="{{ pub.language_code }}">{{pub.title_original}}</span>]
+    (in {{ pub.language }}).
+{% endif %}
+{% if pub.book %}
+    In {{ pub.editors_short }} (eds.), <cite>{{ pub.book }}</cite>{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}.
+{% elsif pub.submitted %}
+    Manuscript submitted for publication.
+{% else %}
+<cite>{{ pub.journal }}</cite>{% if pub.forthcoming %}, forthcoming.{% else %} {{ pub.volume }}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}: {{ pub.pages }}{% endif %}.{% endif %}
+{% endif %}
+{% if pub.publisher %}{{ pub.publisher }}.{% endif %}
+{% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">https://doi.org/{{ pub.doi }}</a>{% endif %}
+

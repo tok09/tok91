@@ -1,0 +1,24 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign talks = site[page.collection] | sort: 'year' | reverse %}
+
+<ul>
+{% for talk in talks %}
+{% endfor %}
+</ul>
+
+{% assign talks_by_year = site[page.collection] | group_by: 'year' | sort: 'name' | reverse %}
+
+{% for year in talks_by_year %}
+<h2 id="{{ year.name }}">{{ year.name }}</h2>
+<ul class="citations">
+    {% assign talks = year.items | sort: 'month' | reverse %}
+    {% for talk in talks %}
+        <li>{{ talk.authors_short | default: talk.authors | replace: "Roe, J.", "<b>Roe, J.</b>" }} {{talk.year}}. <a href="{{ talk.url }}">{{talk.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>. Presented at {{talk.conference}}.</li>
+    {% endfor %}
+</ul>
+{% endfor %}

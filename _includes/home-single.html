@@ -1,0 +1,44 @@
+{% if item.id %}
+{% assign title = item.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = item.title %}
+{% endif %}
+
+<div class="list__item">
+	<article class="home__item" itemscope itemtype="https://schema.org/CreativeWork">
+
+		<div class="home__item-collection">
+			{% case item.collection %}
+			{% when "posts" %}
+			<i class="fas fa-newspaper" title="Post"></i>
+			{% when "papers" %}
+			<i class="fas fa-file-alt" title="Paper"></i>
+			{% when "posters" %}
+			<i class="fas fa-image" title="Poster"></i>
+			{% when "talks" %}
+			<i class="fas fa-comment-alt" title="Talk"></i>
+			{% else %}
+			<i class="fas fa-question-circle" title="Other output"></i>
+			{% endcase %}
+			{{ item.date | date: "%Y-%m-%d" }}
+		</div>
+
+		<h3 class="home__item-title no_toc" itemprop="headline">
+
+
+			{% if item.link %}
+			<a href="{{ item.link }}">{{ title }}</a> <a href="{{ item.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+			{% else %}
+			<a href="{{ item.url | relative_url }}" rel="permalink">{{ title }}</a>
+			{% endif %}
+
+			</h2>
+
+			<p class="archive__item-excerpt" itemprop="description">
+			{% if item.excerpt %}
+				{{ item.excerpt | markdownify | strip_html | truncatewords: 64 }}
+			{% endif %}
+			</p>
+
+	</article>
+</div>
