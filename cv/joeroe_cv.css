@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,900;1,400;1,600;1,900&display=swap');
+
+:root {
+  --sidebar-width: 12rem; /* Shrink sidebar width  */
+  --sidebar-background-color: #f9f9f9;
+  --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
+  --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
+  --decorator-border: 2px solid #cccccc; /* Timeline colour */
+}
+
+* {
+  --pagedjs-margin-right: 0.5cm;
+  --pagedjs-margin-left: 0.5cm;
+}
+
+/* Main text*/
+body {
+  font-family: "Lora", serif;
+  line-height: 1.3;
+  color: #333333;
+}
+
+/* Headers */
+[data-id="title"] h1 {
+  font-weight: 600 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lora", serif;
+  font-weight: 600 !important;
+  text-transform: none;
+  color: #333333 !important;
+}
+
+[data-id="main"] h2>i {
+  color: #666666;
+}
+
+/* When in PDF export mode make sure superscripts are nice and small and italic */
+sup {
+  font-size: 0.45rem;
+  font-style: italic;
+}
+
+/* Avoid the breaking within a section */
+/*
+.blocks {
+  break-inside: avoid;
+}
+*/
+
+/* Manual breaks */
+.break-before {
+  break-before: page;
+}
+
+/* Misc. sizing */
+
+.details .place {
+  margin-top: 0.25rem;
+}
+
+.main-block {
+  margin-bottom: 1cm;
+}
+
+.main-block:not(.concise) .details div {
+  padding-top: 0.005rem;
+}
+
+/* When we have links at bottom in a list make sure they actually are numbered */
+#links li {
+  list-style-type: decimal;
+}
+
+/* Dont put the little fake list point in front of links */
+.aside li::before {
+  display: none;
+}
+
+/* Move closer to start and up towards header */
+.aside ul {
+  padding-left: 1rem;
+}
+
+.aside li::before {
+  position: relative;
+  margin-left: -4.25pt;
+  content: "• ";
+}
+
+/* Make sure elements in asside are centered and have a nice small text */
+.aside {
+  width: calc(var(--sidebar-width) + 9px);
+  line-height: 1.2;
+  font-size: 0.75rem;
+}
+
+/* Timeline date colour */
+.date {
+  color: #666666;
+}
+
+/* Timeline circle colour */
+.decorator::after {
+  background-color: #666666;
+}
+
+/* Remove the fake bullets from lists */
+.aside li::before {
+  content: auto;
+}
+
+.skill-bar {
+  color: white;
+  padding: 0.1rem 0.25rem;
+  margin-top: 3px;
+  position: relative;
+  width: 100%;
+}
+
+
+/* When the class no-timeline is added we remove the after psuedo element from the header... */
+
+/* Removes the psuedo element on h2 tags for this section */
+.section.no-timeline h2::after {
+  content: none;
+}
+
+/* Without adding padding the content is all up on the title */
+.section.no-timeline h2 {
+  padding-bottom: 1rem;
+}
+
+/* Add styles for little cards  */
+.info-card{
+  width: 220px;
+  float: left;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  box-shadow: 1px 1px 4px black;
+}
+
+/* Citation lists */
+.citations ul {
+  list-style-type: none !important;
+  text-indent: -0.5cm !important;
+  padding-left: 0.5cm;
+}
+
+.citations li::before {
+  content: none !important;
+}
+
+.list-only .details > header {
+  display: none;
+}
+
+.list-only .details > div {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.list-only .details > div > ul {
+  margin-top: 0 !important;
+}

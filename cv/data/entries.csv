@@ -1,0 +1,72 @@
+section,title,loc,institution,start,end,description_1,description_2,description_3,description_4,description_5,description_6,in_resume
+education,Postgraduate studies,UCL Institute of Archaeology,University College London,2013,2017,Computational modelling of prehistoric human ecology in the Southern Levant,Part of the [Prehistoric Hunting Strategies in Jordan project](https://www.ucl.ac.uk/archaeology/research/directory/prehistoric-hunting-strategies-jordan),"Supervisors: [Prof. Louise Martin](https://www.ucl.ac.uk/archaeology/people/louise-martin-reader-zooarchaeology), [Prof. Andrew Bevan](https://www.ucl.ac.uk/archaeology/people/andrew-bevan-professor-spatial-and-comparative-archaeology), [Dr. Andrew Garrard](https://www.ucl.ac.uk/archaeology/people/andrew-garrard-associate-professor-early-prehistory)",,,,TRUE
+education,MA Archaeology (Distinction),UCL Institute of Archaeology,University College London,2012,2013,Dissertation: *Cultural phylogeny of kurgan burial mounds in the west Eurasian steppe*,Supervisor: [Prof. Stephen Shennan](https://www.ucl.ac.uk/archaeology/people/stephen-shennan-professor-theoretical-archaeology),,,,,TRUE
+education,BA Anthropology & Archaeology (1st class hons.),Departments of Anthropology & Archaeology,Durham University,2008,2011,Dissertation: *Spatial analysis of intra-site surface collection data from a Cucuteni-Tripolye mega-site*,Supervisor: [Prof. John Chapman](https://www.dur.ac.uk/archaeology/staff/?id=150),,,,,TRUE
+education,Secondary education,Woodkirk High School,Leeds,2001,2008,,,,,,,
+academic_employment,Research assistant (Projektmitarbeiter),[Institute of Archaeological Sciences](https://www.iaw.unibe.ch/),University of Bern,2021,current,"Lead developer of [XRONOS](https://xronos.ch/), an open repository for chronometric data","PIs: [Dr. Martin Hinz](https://www.martinhinz.info/), [Prof. Dr. Albert Hafner](https://www.iaw.unibe.ch/about_us/arp__pa_personen/prof_dr_hafner_albert/index_eng.html)",,,,,TRUE
+academic_employment,Research assistant (Videnskabelig assistent),[Department of Cross-Cultural and Regional Studies](https://ccrs.ku.dk/),University of Copenhagen,2017,2020,Responsibility for archaeological survey and spatial analysis components of major field projects in Iran and Jordan,Developed databases and software interfaces for the projects' research data,"PIs: [Dr. Tobias Richter](httpProf. Peder Mortensens://ccrs.ku.dk/staff/?pure=en/persons/400496), ",,,,TRUE
+grant,Young Researchers’ Promotion Fund,And other internal funds,University of Bern,,2022,"7300 CHF to support conference organisation, ‘Digital Archaeology Bern 2023’
+
+",,,,,,
+grant,Project grant,Danmarks Frie Forskningsfond,,,2019,"""Connecting the Dots: Reconfiguring the Indo-European family tree""",Named applicant. PI: Dr. Thomas Olander,,,,,
+grant,Fieldwork grant,Det Danske Institut i Damaskus,,,2018,"115,000 DKK to support archaeological fieldwork in eastern Jordan (2019)",Co-applicant with Dr. Tobias Richter,,,,,
+grant,Fieldwork grant,H. P. Hjerl Hansen Mindefondet for Dansk Palæstinaforskning,,,2018,"50,000 DKK to support archaeological fieldwork in eastern Jordan (2019)",Co-applicant with Dr. Tobias Richter,,,,,
+grant,Project grant,C. L. Davids Fond og Samling,,,2016,"""Tracking Cultural and Environmental Change: the Epipalaeolithic and Neolithic in the Seimarreh Valley, central Zagros""","Named applicant. PIs: Prof. Peder Mortensen, Dr. Tobias Richter, Dr. Hojjat Darabi",,,,,
+grant,Institute of Archaeology Award,UCL Institute of Archaeology,London,,2015,Individual grant (£1888) to participate in archaeological fieldwork in eastern Jordan,,,,,,
+grant,Research Students’ Conference Grant,London Centre for the Ancient Near East (LCANE),,,2014,,,,,,,
+grant,PhD Studentship,Leverhulme Trust,,,2013,Part of Research Project Grant RPG-2013-223,,,,,,
+grant,Research-preparation Masters Award,Arts and Humanities Research Council,,,2012,,,,,,,
+papers,"[20,000 years of societal vulnerability and adaptation to climate change in southwest Asia](https://doi.org/10.1002/wat2.1330)",*WIRES Water*,,,2019,,,,,,,TRUE
+papers,"[Mutable mobilities: 15,000 years of nomadic settlement in the Qa' Shubayqa, eastern Jordan](https://joeroe.io/talks/2019/sas2019_shubs.html)",Seminar for Arabian Studies,Leiden,,2019,,,,,,,TRUE
+papers,"[The Q Continuum: open source GIS tools for paperless field survey](https://joeroe.io/posters/2019/caa2019_qcontinuum.html)
+",CAA conference,Kraków,,2019,,,,,,,TRUE
+papers,[A halfway house: open source tools for tidy photographic and 3D data management between the field and the archive](https://joeroe.io/posters/2019/caa2019_halfway_house.html),CAA conference,Kraków,,2019,,,,,,,TRUE
+papers,"[""Founder crops"" v. wild plants: Assessing the plant-based diet of the last hunter-gatherers in southwest Asia](https://doi.org/10.1016/j.quascirev.2018.02.011)",*Quaternary Science Reviews*,,,2018,,,,,,,TRUE
+papers,[fieldwalkr: an R package for spatial sampling and field survey simulation](https://joeroe.io/talks/2018/lac2018_fieldwalkr.html),Landscape Archaeology Conference,Newcastle & Durham,,2018,,,,,,,TRUE
+papers,"[Faunal turnover in the Azraq Basin, eastern Jordan 28,000 to 9,000 cal BP, signalling climate change and human impact](https://doi.org/10.1016/j.yqres.2016.07.001)",*Quaternary Research*,,,2016,,,,,,,TRUE
+papers,"[A greener model of palaeoenvironments in the eastern Levant](https://joeroe.io/posters/2016/greener.html)
+",Unravelling the Palaeolithic' conference,Southhampton,,2016,,,,,,,TRUE
+papers,[Open season: modelling prehistoric wildlife dynamics in Epipalaeolithic and Neolithic Jordan](https://joeroe.io/talks/2015/banea2015.html),BANEA annual conference,London,,2015,,,,,,,TRUE
+software,[rintchron](https://rintchron.joeroe.io): R interface to IntChron,,,,2020,,,,,,,TRUE
+software,[era](https://era.joeroe.io): R package for years with an era,,,,2020,,,,,,,TRUE
+software,[stratigraphr](https://stratigraphr.joeroe.io): R package for archaeological stratigraphy and chronological sequences,,,,2019,,,,,,,TRUE
+software,[fieldwalkr](https://github.com/joeroe/fieldwalkr): R package for spatial sampling and survey simulation,,,,2019,,,,,,,TRUE
+software,[rpaleoclim](https://github.com/joeroe/rpaleoclim): R Interface to the PaleoClim Paleoclimate Database,,,,2018,,,,,,,TRUE
+software,[piwigo-3dhop](https://github.com/joeroe/piwigo-3dhop): [Piwigo](https://piwigo.org/) plugin for 3D models,,,,2018,,,,,,,TRUE
+field,Field director,[Shubayqa Archaeological Project](https://shubeika.ccrs.ku.dk/),Jordan,,2019,,,,,,,
+field,Field archaeologist,[Ancient Socioecological Systems in Oman (ASOM) project](https://u.osu.edu/asomproject/),Oman,,2018,,,,,,,
+field,Supervisor,Razavar Valley Survey,Iran,,2018,,,,,,,
+field,Field archaeologist & supervisor,Shubayqa Archaeological Project,Jordan,2015,2018,,,,,,,
+field,Field archaeologist,[Kharaneh IV Project](https://kharaneh.com/),Jordan,,2015,,,,,,,
+field,"Field archaeologist & supervisor
+",Tripillia Mega-Sites Project,Ukraine,2012,2014,,,,,,,
+field,Supervisor,Mirkovo Project,Bulgaria,,2012,,,,,,,
+field,Trainee,Tripillia Mega-Sites Project,Ukraine,,2009,,,,,,,
+field,Trainee,York Archaeological Trust,England,,2007,,,,,,,
+service,Peer review,Journals,,,,"*Journal of Open Source Software*: [#4335](https://github.com/openjournals/joss-reviews/issues/4335), [#5811](https://github.com/openjournals/joss-reviews/issues/5811)",*Journal of Open Archaeology Data* (2),[PCI Archaeology](https://archaeo.peercommunityin.org/): [#333](https://doi.org/10.24072/pci.archaeo.100333),*Advances in Archaeological Practice* (1); *Open Archaeology* (1); *Open Quaternary* (1); *PLOS ONE* (1),,,
+service,Member of Review College,[CAA International](https://caa-international.org),,2020,2023,Reviews completed: CAA2024 (4), CAA2023 (3), CAA2022 (7), CAA2021 (8), CAA2020 (3),,
+service,Conference organiser,[Digital Archaeology Bern 2023](https://dab23.archaeological.science),Bern,,2023,,,,,,,
+service,Senior Editor,*[Papers from the Institute of Archaeology](https://www.pia-journal.co.uk/)*,University College London,2014,2016,,,,,,,
+service,Postgraduate Student Representative,UCL Institute of Archaeology,University College London,2014,2016,Communications Committee,Publications Committee,,,,,
+service,Editorial Assistant,*Papers from the Institute of Archaeology*,University College London,2013,2014,,,,,,,
+service,Session organiser,CAA2019,Kraków,,2019,S06: *Recent advances in spatial statistics for archaeology*,,,,,,
+service,Session organiser,CAA2021,Limassol,,2021,S17: *[Tools for the Revolution: developing packages for scientific programming in archaeology?](https://sslarch.github.io/sessions/sessioni/)*,,,,,,
+service,Conference organiser,[Postgraduate Zooarchaeology Forum (PZAF)](https://pzaf2014.wordpress.com/),London,,2014,,,,,,,
+workshop,"""Scientific Scripting Languages in Archaeology"" Roundtable",CAA2019,Kraków,,2019,,,,,,,
+workshop,"""Connecting the Dots""",International Summer School,Christian-Albrecht University of Kiel,,2018,Development of the R package [moin: Modeling Interaction in Landscape Archaeology](https://github.com/ISAAKiel/SummerSchool_moin),,,,,,
+workshop,Shubayqa Project Workshop,Workshop,University of Copenhagen,,2017,,,,,,,
+workshop,Near East Climate Workshop,Workshop,University of Nottingham,,2016,,,,,,,
+teaching,Course lecturer,Institute of Archaeological Sciences,University of Bern,2022,current,Lead instructor on BA-/MA-level courses [GIS in Archaeology](https://gia.joeroe.io) and [Statistical Methods for Archaeological Data Analysis](https://smada.joeroe.io) (SMADA),Recognised for “Excellence of Teaching” for SMADA 2023 (top 14% of courses in the Faculty of Humanities according to student satisfaction),,,,,
+teaching,Course lecturer,Department of Cross-Cultural and Regional Studies,University of Copenhagen,2018,2021,"BA: ""Practical Archaeology 1"" (Arkæologisk praksis 1, [HNAB0100FU](https://kurser.ku.dk/course/hnab0100fu/2019-2020)), ""Practical Archaeology 2"" (Arkæologisk praksis 2, [HNAB0102EU](https://kurser.ku.dk/course/hnab0102eu/2019-2020)), ""Science and Theory of Science"" (Videnskabsteori, [HTOR0102FU](https://kurser.ku.dk/course/htor0102fu/2019-2020))","KA: ""Theory and Method in Near Eastern Archaeology"" ([HNAK0101EU](https://kurser.ku.dk/course/hnak0101eu/2019-2020)), ""Environments and landscapes in the archaeological record of southwest Asia"" ([HNAB0102FU](https://kurser.ku.dk/course/hnab0102fu/)), ""Neolithic to Early Urban Periods in the Near East"" ([HNAK0102EU](https://kurser.ku.dk/course/hnak0102eu/2019-2020)), ""Project-based course"" ([HNAK0100FU](https://kurser.ku.dk/course/hnak0100fu/2019-2020))",,,,,
+teaching,Instructor,"""R for Archaeologists"" winter school",University of Pisa,2020,2023,For four years I have led an intensive [two-day workshop on data visualisation in R](https://github.com/joeroe/r4r_visualisation) for archaeologists,,,,,,
+teaching,Workshop organiser,Department of Cross-Cultural and Regional Studies,University of Copenhagen,,2020,Led an intensive two-day workshop on mobile GIS for linguistic field research,,,,,,
+teaching,Postgraduate Teaching Assistant,UCL Institute of Archaeology,University College London,2015,2016,ARCL2028 Research & Presentation Skills,,,,,,
+teaching,Tutor,[The Brilliant Club](https://www.thebrilliantclub.org/),Schools in London,2014,2016,Designed and delivered a university-style tutorial course for primary and high school students,,,,,,
+teaching,Student Volunteer,*Maths and Archaeology* workshop,Petrie Museum of Egyptian Archaeology,,2015,Outreach event for high school students organised by Dr. Alice Stevenson (Petrie Museum) and Dr. Luciano Rila (UCL Mathematics) and supported by the London Mathematical Society,,,,,,
+member,[Society of Research Software Engineering](https://society-rse.org/),,,2020,current,,,,,,,
+member,[Council for British Research in the Levant](http://cbrl.ac.uk/),,,2014,current,,,,,,,
+member,[Computer Applications and Quantitative Methods in Archaeology International](https://caa-international.org/),,,2014,current,Member of Review College (2018–present),Member of 'Scientific Scripting Languages in Archaeology' special interest group (2019–present),,,,,
+other_employment,Editor & administrator,English Wikipedia,,2010,current,Community-appointed administrator,Elected member of the Arbitration Committee (2019–2020),,,,,
+other_employment,Gateway Advisor,Kirklees Citizens Advice Bureau,Dewsbury,,2018,,,,,,,
+other_employment,Curatorial assistant,Gradski Musej Vršac,Vršac,,2012,,,,,,,
+other_employment,Software engineer,[TPP SystmOne](https://www.tpp-uk.com/),Leeds,,2012,"Front-end and data migration programming for a large clinical systems developer, working with Java and SQL",,,,,,TRUE

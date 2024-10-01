@@ -1,0 +1,117 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// COLOURS
+$footer-background-color: #ffffff;
+$text-color: #282828;
+$masthead-link-color: #000000;
+$primary-color: #edcc00;
+
+// FONTS
+$serif: "Source Serif Pro", serif;
+$sans-serif: "Source Sans Pro", sans-serif;
+$sans-serif-narrow: "Source Sans Pro", sans-serif;
+$monoscape: "Source Code Pro", monospace;
+
+// IMPORTS
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+@import "https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"; // academicons
+
+// CUSTOM CSS
+
+// Layout
+.site-title {
+    font-size: $type-size-3;
+    font-weight: 900 !important;
+    padding: 0 0.2em;
+}
+
+.greedy-nav a {
+    font-weight: 600;
+}
+
+.author__name {
+	display: none !important;
+}
+
+.sidebar {
+    opacity: 1;
+}
+
+.author__avatar img {
+    border: 0;
+    padding: 0;
+    max-width: 200px;
+    border-radius: 0;
+}
+
+// Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+.page__content {
+    p, 
+    li, 
+    dl {
+        font-size: 0.875em;
+    }
+}
+
+// Sticky TOC
+/*
+.sidebar__right {
+    height: 100%;
+}
+.toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1rem;
+}
+*/
+
+.page__footer {
+	color: #333333 !important;
+}
+
+// Disable URLs after links for print
+@media print {
+   a:after {
+      content: '' !important;
+  } 
+}
+
+// Metrics on paper layout
+.altmetric-see-more-details {
+    display: none;
+}
+
+// Lists of citations
+ul.citations {
+    list-style-type: none;
+    text-indent: -$indent-var;
+}
+
+// Home page feed
+.home__item {
+	margin-bottom: 1.5rem;
+}
+
+.home__item-collection {
+	color: #999999;
+	font-size: smaller;
+}
+
+.home__item-title {
+	margin-top: 0;
+	font-weight: normal;
+}
