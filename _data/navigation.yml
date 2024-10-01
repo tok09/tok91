@@ -1,15 +1,15 @@
 main:
-  - title: "Posts"
+  - title: "帖子"
     url: /posts/
-  - title: "Software"
+  - title: "软件"
     url: /code/
-  - title: "Datasets"
+  - title: "数据"
     url: /datasets/
-  - title: "Papers"
+  - title: "报告"
     url: /papers/
-  - title: "Posters"
+  - title: "海报"
     url: /posters/
-  - title: "Talks"
+  - title: "讲座"
     url: /talks/
-  - title: "CV"
+  - title: "介绍"
     url: /cv/
