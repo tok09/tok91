@@ -4,7 +4,7 @@ permalink: /cv/
 layout: single
 ---
 
-Click to view my:
+点击查看我的:
 
-* [Full CV](joeroe_cv.html) ([PDF](joeroe_cv.pdf))
+* [完整简历](joeroe_cv.html) ([PDF](joeroe_cv.pdf))
 
