@@ -1,0 +1,139 @@
+# Site description
+title: Joe Roe
+name: Joe Roe
+description: >- 
+  Joe Roe is a computational archaeologist specialising in Southwest Asian prehistory.
+site.locale: "en-GB"
+
+# URLs and permalinks
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://joeroe.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "joeroe/joeroe.github.io"
+
+# Author information
+author:
+  name: "Joe Roe"
+  avatar: "/images/avatar.png"
+  bio: |
+    Computational archaeologist specialising in Southwest Asian prehistory.
+
+    [&larr;](https://webring.archaeo.social/previous?host=joeroe.io)
+    *[ARCHAEORING](https://webring.archaeo.social)*
+    [&rarr;](https://webring.archaeo.social/next?host=joeroe.io)
+  location: "Denmark"
+  links:
+    - label: "joe@joeroe.io"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:joe@joeroe.io"
+    - label: "0000-0002-1011-1244"
+      icon: "ai ai-fw ai-orcid"
+      url: "https://orcid.org/0000-0002-1011-1244"
+    - label: "Google Scholar"
+      icon: "ai ai-fw ai-google-scholar"
+      url: "https://scholar.google.dk/citations?user=asBKJCwAAAAJ"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/joeroe"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://archaeo.social/@joeroe"
+    - label: "Wikipedia"
+      icon: "fab fa-fw fa-wikipedia-w"
+      url: "https://en.wikipedia.org/wiki/User:Joe_Roe"
+ 
+# Social media
+twitter:
+  username: "joeroe90"
+
+# Content types
+collections:
+  code:
+    output: true
+  datasets:
+    output: true
+  papers:
+    output: true
+  papers:
+    output: true
+  posters:
+    output: true
+  talks:
+    output: true
+  blog:
+    output: true
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: "code"
+    values:
+      layout: "program"
+  - scope:
+      path: ""
+      type: "datasets"
+    values:
+      layout: "dataset"
+  - scope:
+      path: ""
+      type: "papers"
+    values:
+      layout: "paper"
+  - scope:
+      path: ""
+      type: "posters"
+    values:
+      layout: "poster"
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
+
+# Breadcrumbs
+breadcrumbs: false
+
+# Excerpts
+excerpt_separator: <!-- more -->
+
+# Home page pagination
+# paginate: 5
+# paginate_path: /page:num/
+
+# Taxonomy
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Feed
+feed:
+  tags: 
+    only:
+      - R
+    path: /feed/
+
+# Build settings
+markdown: kramdown
+include:
+  - _pages
+exclude:
+  - "*.Rmd"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "contrast"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
