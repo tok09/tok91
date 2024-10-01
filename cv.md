@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitae
+title: 简历
 permalink: /cv/
 layout: single
 ---
