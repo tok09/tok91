@@ -1,9 +1,9 @@
 # Site description
-title: Joe Roe
-name: Joe Roe
+title: tok09
+name: tok09
 description: >- 
-  Joe Roe is a computational archaeologist specialising in Southwest Asian prehistory.
-site.locale: "en-GB"
+  tok09 is x .
+site.locale: "cn-GB"
 
 # URLs and permalinks
 baseurl: "" # the subpath of your site, e.g. /blog
