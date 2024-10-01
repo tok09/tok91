@@ -1,5 +1,5 @@
 ---
-title: Software
+title: 软件
 permalink: /code/
 layout: code
 collection: code
