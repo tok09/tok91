@@ -4,4 +4,4 @@ permalink: /posts/
 layout: posts
 ---
 
-Miscellaneous updates, reviews, short essays and how-to guides. My [posts about R](/tags/#r) are aggregated by [R-bloggers](https://www.r-bloggers.com/).
+杂项更新、评论、短文和操作指南。我的[关于 R 的帖子](/tags/#r)由[R-bloggers](https://www.r-bloggers.com/)汇总。
