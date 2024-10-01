@@ -4,46 +4,47 @@ name: tok09
 description: >- 
   tok09 is x .
 site.locale: "cn-GB"
+# site.locale: "GB-GB"
 
 # URLs and permalinks
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://joeroe.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: "joeroe/joeroe.github.io"
+url: "https://tok09.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "tok09.github.io"
 
 # Author information
 author:
-  name: "Joe Roe"
+  name: "tok09"
   avatar: "/images/avatar.png"
   bio: |
-    Computational archaeologist specialising in Southwest Asian prehistory.
+    亚史.
 
-    [&larr;](https://webring.archaeo.social/previous?host=joeroe.io)
-    *[ARCHAEORING](https://webring.archaeo.social)*
-    [&rarr;](https://webring.archaeo.social/next?host=joeroe.io)
+    [&larr;](https://tok09.github.io)
+    *[ARCHAEORING](https://tok09.github.io)*
+    [&rarr;](https://tok09.github.io)
   location: "Denmark"
   links:
-    - label: "joe@joeroe.io"
+    - label: "tok09.github.io"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:joe@joeroe.io"
+      url: "mailto:tok09.github.io"
     - label: "0000-0002-1011-1244"
       icon: "ai ai-fw ai-orcid"
-      url: "https://orcid.org/0000-0002-1011-1244"
+      url: "https://tok09.github.io"
     - label: "Google Scholar"
       icon: "ai ai-fw ai-google-scholar"
-      url: "https://scholar.google.dk/citations?user=asBKJCwAAAAJ"
+      url: "https://tok09.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/joeroe"
+      url: "https://tok09.github.io"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
-      url: "https://archaeo.social/@joeroe"
+      url: "https://tok09.github.io"
     - label: "Wikipedia"
       icon: "fab fa-fw fa-wikipedia-w"
-      url: "https://en.wikipedia.org/wiki/User:Joe_Roe"
+      url: "https://tok09.github.io"
  
 # Social media
 twitter:
-  username: "joeroe90"
+  username: "tok09"
 
 # Content types
 collections:
