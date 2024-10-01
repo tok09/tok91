@@ -1,5 +1,5 @@
 ---
-title: "Posts"
+title: "帖子"
 permalink: /posts/
 layout: posts
 ---
