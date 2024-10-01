@@ -4,8 +4,7 @@ permalink: /code/
 layout: code
 collection: code
 ---
+开源项目重大重大贡献:
 
-I have also made substantial contributions to the following open source projects:
-
-* [c14bazAAR](https://github.com/ropensci/c14bazAAR): R package to download and prepare C14 dates from different source databases
+* [c14bazAAR](https://github.com/ropensci/c14bazAAR): R 不同源数据库下载
 
